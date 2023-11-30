@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+#time{
+width: 10%;
+}
+#search>input{
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    outline: none;
+
+}
+h4{
+    font-weight: 800;
+}
+#search{
+background-color: #f8f8f8;
+width: 40%;
+height: 40px;
+padding-left: 10px;
+padding-top: 7px;
+border-radius: 10px;
+}
+#log{
+    border: none;
+    background-color: white;
+    padding-inline: 10px;
+}
+#login{
+    width: 20%;
+}
+#hero>img{
+width: 95%;
+margin-left: 22px;
+}
+.scr-dv>img{
+    width: 335px;
+    height: 195px;
+    overflow: scroll;
+}
+.scr-dv{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    margin-inline: 36px;
+}
+#sec-3>img{
+    width: 128px;
+    height: 188px;
+
+}
+#sec-3{
+    margin-left: 15px;
+}
+#card button{
+border: 1px solid green;
+border-radius: 5px;
+}
+#card img{
+    width: fit-content;
+    height: 140px;
+    padding: 8px;
+}
+.name>h6{
+   white-space: wrap; 
+}
+#card>div{
+    padding: 8px;
+    width: 200px;
+}
+#card button:hover{
+background-color: green;
+color: white;
+}
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:786px){
+   nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   #time{
+    width: 100%;
+    text-align: center;
+   }
+   #search{
+    width: 100%;
+   }
+   #login{
+   flex-direction: column;
+   width: 100%;
+   margin-bottom: 10px;
+   }
+   #hero{
+    display: none;
+   }
+}
+
